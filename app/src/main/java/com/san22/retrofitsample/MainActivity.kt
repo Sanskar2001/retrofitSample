@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                     mylist.addAll(it)
                     myadpater.sendtoadapter(mylist)
 //                    final commit
+//                    second commit
                 }
 
 
