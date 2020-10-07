@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
                 response.body()?.let {
                     mylist.addAll(it)
                     myadpater.sendtoadapter(mylist)
+//                    final commit
                 }
 
 
